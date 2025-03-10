@@ -224,7 +224,7 @@ nav {
 .social-icons {
   display: flex;
   justify-content: center;  /* Centers the icons */
-  gap: 300px;  /* Increased space between icons */
+  gap: 20px;  /* Increased space between icons */
   margin-top: 20px;
 }
 
