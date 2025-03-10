@@ -8,22 +8,23 @@ body {
 
 /* Header */
 header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #333;
-  padding: 15px 50px;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  left: 0;
-  z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 15px 50px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
 }
 
 .logo img {
-  height: 50px;
+    height: 50px; /* Ensure the logo has a fixed height */
+    width: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure the image is displayed as a block element */
 }
-
 nav ul {
   list-style: none;
   display: flex;
